@@ -26,7 +26,7 @@ pass=`date +%s | sha256sum | base64 | head -c 12`
 
 cat>/etc/ss-config.json<<EOF
 {
-	  "server": "0.0.0.0",
+    "server": "0.0.0.0",
     "local_address":"127.0.0.1",
     "local_port":1080,
     "port_password": {
