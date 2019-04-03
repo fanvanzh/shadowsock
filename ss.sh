@@ -90,3 +90,5 @@ EOF
 systemctl daemon-reload
 systemctl enable kcp-server
 systemctl restart kcp-server
+systemctl stop firewalld
+systemctl disable firewalld
