@@ -6,4 +6,4 @@ sh -c "$(curl -fsSL https://fanvanzh.github.io/shadowsock/ss.sh)"
 ```
 to install the ss service.
 
-port: 9000 ~ 9005, password: 9000 ~ 9005.
+port: 9000 ~ 9007, password: the same as port
